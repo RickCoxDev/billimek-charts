@@ -215,6 +215,9 @@ certificate:
   # the location specified in pfxInContainerPath.
   pkcsMangler:
     enabled: false
+    image:
+      repository: tlsprint/openssl
+      tag: 1.1.1f
     configmap:
       labels: {}
       annotations: {}
